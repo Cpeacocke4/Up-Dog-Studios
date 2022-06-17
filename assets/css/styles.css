@@ -26,7 +26,7 @@ h3 {
 }
 
 p {
-    font-size: 30px;
+    font-size: 1.6rem;
 }
 
 /* Page Header */
@@ -48,7 +48,7 @@ p {
     text-transform: uppercase;
     color: #232323;
     letter-spacing: 4px;
-    font-size: 290%;
+    font-size: 3rem;
     float: left;
     margin-left: 2%;
     text-decoration: none;
@@ -59,7 +59,7 @@ p {
 #menu {
     font-family: Josefin Sans, sans-serif;
     color: #232323;
-    font-size: 145%;
+    font-size: 1.3rem;
     line-height: 20px;
     
     position: absolute;
@@ -87,6 +87,81 @@ p {
     color: #ea4965;
 }
 
+/* Hero Image */ 
+
+#hero-image {
+    height: 40em;
+    width: 100%;
+    
+    background-size: cover;
+    background-color: #232323;
+    background-repeat: no-repeat;
+    background-position: 55%;
+    
+    background-image: url(../images/hero-image.jpg);  
+}
+
+/* Hero Image Hook */
+
+#hook-box {
+    width: 80%;
+    height: 12em;
+
+    background-color: rgb(234,73,101, .7);
+
+    top: 200px;
+    left: 36px;
+    position: absolute;
+}
+
+#hook-text {
+    color: #edebe4;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    padding: 3%;
+    position: absolute;
+    transform: translate(0, 7.5%);
+}
+
+#hook-text > span {
+    font-size: 1.5em;
+    font-family: Bodoni Moda, sans-serif;
+}
+
+/* Book a Class Button */ 
+
+#button-box {
+    display: flex;
+    justify-content: center;
+}
+
+#book-a-class-button {
+    width: 40%;
+    height: 5em;
+    
+    bottom: 180px;
+    position: absolute;
+
+    background-color: #edebe4;
+}
+
+#book-a-class-button > a {
+    font-family: Josefin Sans, sans-serif;
+    font-weight: 300;
+    color: inherit;
+    font-size: 170%;
+    text-decoration: none;
+
+    position: relative;
+} 
+
+#book-a-class-button:hover {
+    background-color: #ea4965;
+    color: #edebe4;
+}
+
 /* Media Queries */
 
 /* Small To Medium Screens */
@@ -110,5 +185,47 @@ p {
     margin-right: 1%;
     top: 27px;
 }
+
+/* Hook Box */
+#hook-box {
+    width: 60%;
+    height: 14em;
+
+    background-color: rgb(234,73,101, .7);
+
+    top: 200px;
+    left: 36px;
+    position: absolute;
+}
+
+#hook-text {
+    color: #edebe4;
+    font-size: 1.8em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    padding: 3%;
+    position: absolute;
+    transform: translate(0, 7.5%);
+}
+
+/* Book a Class Button */ 
+
+#button-box {
+    display: flex;
+    justify-content: right;
+    margin-right: 4%;
+}
+
+#book-a-class-button {
+    width: 25%;
+    height: 5em;
+    
+    bottom: 156px;
+    position: relative;
+
+    background-color: #edebe4;
+}
+
 
 }
