@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@1,6..96&family=Josefin+Sans:wght@300;400&family=Mada:wght@300&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Mada, sans-serif;
+    font-weight: 300;
+    color: #edebe4;
+    font-size: 90%;
+}
+
+h1 {
+    font-family: Josefin Sans, sans-serif;
+    font-size: 300%;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: Josefin Sans, sans-serif;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+p {
+    font-size: 30px;
+}
+
+/* Page Header */
+
+#header {
+    background-color: #edebe4;
+    height: 6.5em;
+    width: 100%;
+    position: fixed;
+    z-index: 2500;
+    
+    flex-wrap: wrap;
+}
+
+/* Logo */
+
+#logo {
+    font-family: Righteous, sans-serif;
+    text-transform: uppercase;
+    color: #232323;
+    letter-spacing: 4px;
+    font-size: 290%;
+    float: left;
+    margin-left: 2%;
+    text-decoration: none;
+}
+
+/* Nav Bar */
+
+#menu {
+    font-family: Josefin Sans, sans-serif;
+    color: #232323;
+    font-size: 145%;
+    line-height: 20px;
+    
+    position: absolute;
+    bottom: 3%;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #ea4965;
+    color: #ea4965;
+}
+
+.active {
+    border-bottom: 1px solid #ea4965;
+    color: #ea4965;
+}
+
+/* Media Queries */
+
+/* Small To Medium Screens */
+
+@media screen and (min-width:700px) {
+
+    /* Nav Bar */
+
+#logo {
+    position: relative;
+    top: 16px;
+}
+
+    #menu {
+    font-family: Josefin Sans, sans-serif;
+    color: #232323;
+    font-size: 200%;
+    line-height: 20px;
+    
+    position: relative;
+    margin-right: 1%;
+    top: 27px;
+}
+
+}
