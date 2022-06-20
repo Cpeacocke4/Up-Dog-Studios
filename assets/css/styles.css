@@ -411,6 +411,45 @@ footer{
     color: #ea4965;
 }
 
+/* About Page */
+
+#who-we-are {
+    height: 30em;
+    background-color: #5a7765;
+}
+
+#who-we-are-img {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+
+    overflow: hidden;
+}
+
+#who-we-are-img img {
+    width: 45em;
+    height: 25em;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60%;
+    overflow: hidden;
+    padding-top: 9em;
+}
+
+#who-we-are-text {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 30%;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+    
+}
+
 /* Media Queries */
 
 /* Small To Medium Screens */
