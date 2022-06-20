@@ -112,8 +112,9 @@ p {
 /* Hero Image */ 
 
 #hero-image {
-    height: 40em;
+    height: 25em;
     width: 100%;
+    padding-top: 12em;
     
     background-size: cover;
     background-color: #232323;
@@ -128,12 +129,9 @@ p {
 #hook-box {
     width: 80%;
     height: 12em;
+    margin: auto;
 
     background-color: rgb(234,73,101, .7);
-
-    top: 13em;
-    left: 36px;
-    position: absolute;
 }
 
 #hook-text {
@@ -142,7 +140,6 @@ p {
     text-align: center;
     
     padding: 3%;
-    position: absolute;
     transform: translate(0, 7.5%);
 }
 
@@ -162,6 +159,10 @@ p {
 #book-a-class-button {
     position: absolute;
     top: 30em;
+}
+
+#book-a-class-button:hover {
+    background-color: #ea4965;
 }
 
 /* Ethos Section */ 
@@ -272,13 +273,14 @@ p {
     height: 100%; 
 }
 
-/* opening times */
+/* Opening Times */
 
 #opening-times {
 
     width: 100%;
     height: 20em;
-    margin-top: 1em;
+    margin-top: 3em;
+    padding-top: 2em;
 
     background-color: #edebe4;
 }
@@ -319,9 +321,18 @@ hr {
 
 #testimonies {
     width: 100%;
-    height: 800px;
+    height: 75em;
 
     background-color: #edebe4;
+}
+
+.testimony-row {
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
 }
 
 #testimonies h1 {
@@ -330,6 +341,16 @@ hr {
 
     padding-top: 60px;
     padding-bottom: 40px ;
+}
+
+#testimonies h3 {
+    color: #232323;
+    text-align: center;
+}
+
+#testimonies p {
+    color: #232323;
+    text-align: center;
 }
 
 .portraits {
@@ -341,30 +362,53 @@ hr {
     background-repeat: no-repeat;
     overflow: hidden;
     border-radius: 50%;
-    padding-left: 65px;
-    padding-right: 65px;
-    padding-top: 20px;
-
 }
 
-#portrait-container {
-    text-align: center;   
+.portrait-container {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
 }
 
-#testimony-text-section {
-    position: relative;
+#testimony-1 {
+    display: none;
+}
+
+#testimony-2 {
+    display: none;
+}
+
+/* Footer */
+
+footer{
+    background-color: #edebe4;
+    height: 100px;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.social-networks {
     text-align: center;
-    
+
 }
 
-.testimony-text {
-    color: #232323;
+.social-networks > li {
+    display: inline;
+}
 
-    width: 20%;
-    height: 475px;
-    padding: 24px;
-    
-    display: inline-block;
+.social-networks i {
+    font-size: 200%;
+    color: #3a3a3a;
+}
+
+.social-networks a {
+    text-decoration: none;
+    margin: 1%;
+    padding: 5%;
+}
+
+.social-networks i:hover {
+    color: #ea4965;
 }
 
 /* Media Queries */
@@ -432,12 +476,42 @@ hr {
     background-color: #edebe4;
 }
 
+/* Testimonials */
+
+#testimonies {
+    height: 87em;
+}
+
+.testimony {
+    width: 15em;
+}
+
+#testimony-blocks {
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+#testimonies p {
+    color: #232323;
+    text-align: center;
+}
+
+#testimony-1 {
+    display: block;
+}
+
+#testimony-2 {
+    display: block;
+}
 
 }
 
 /* Medium to Large Screens */
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1000px) {
     /* Hook Box */
 #hook-box {
     width: 53%;
@@ -450,4 +524,10 @@ hr {
 #book-a-class-button {
     width: 20%;
 }
+
+/* Testimonies */
+#testimonies {
+    height: 55em;
+}
+
 }
