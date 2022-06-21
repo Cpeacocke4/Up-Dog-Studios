@@ -411,48 +411,100 @@ footer{
     color: #ea4965;
 }
 
-/* About Page */
+/* About */
 
 #who-we-are {
-    height: 30em;
+    height: 70%;
     background-color: #5a7765;
 }
 
-#who-we-are-img {
+.who-we-are-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 70%;
-    width: 100%;
     margin: auto;
-    justify-content: space-evenly;
-
-    overflow: hidden;
+    padding-top: 8em;
+    justify-content: space-around;
 }
 
-#who-we-are-img img {
-    width: 45em;
-    height: 25em;
-    
+#who-we-are-img {
+    width: 18rem;
+    height: 20rem;
+    background-color: #232323;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 60%;
     overflow: hidden;
-    padding-top: 9em;
+
+}
+
+#who-we-are-img img {
+    max-width: 100%;
+    object-position: 0 -50px;
+    
 }
 
 #who-we-are-text {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 30%;
     width: 100%;
     margin: auto;
-    justify-content: space-evenly;
-    
+    text-align: center;
+    max-width: 700px;
+    padding: 20px;
 }
+
+/* Classes */ 
+
+#what-we-offer {
+    height: 76em;
+    background: #edebe4;
+}
+
+#what-we-offer h1 {
+    color: #3a3a3a;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#class-blocks {
+    background-image: url(../images/yoga-classes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: 50% 30%;
+    overflow: hidden;
+}
+
+.class-info {
+    width: 100%;
+    height: 18em;
+    background-color: rgb(58,58,58,0.8);
+    border: #edebe4 solid 4px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+
+#class-blocks h1 {
+    color: #ea4965;
+}
+
 
 /* Media Queries */
 
 /* Small To Medium Screens */
+
+@media screen and (min-width:600px) {
+    
+    /* About */
+   
+    #who-we-are-img {
+        margin-left: 2em;
+    }
+
+    #who-we-are-text {
+        text-align: left;
+        max-width: 40%;
+    }
+}
 
 @media screen and (min-width:700px) {
 
@@ -546,7 +598,49 @@ footer{
     display: block;
 }
 
+/* About */
+
+#who-we-are-text {
+    text-align: left;  
 }
+
+.who-we-are-container {
+    margin-left: 2.5em;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0;
+}
+
+#who-we-are-img img {
+    margin-left: 0;
+}
+
+}
+
+/* Classes */ 
+
+#class-blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.class-row {
+    display: flex;
+}
+
+.class-info {
+    width: 50%;
+    height: 25em;
+}
+
+#what-we-offer {
+    height: 60em;
+}
+
+#what-we-offer h1 {
+    padding: 30px;
+}
+
 
 /* Medium to Large Screens */
 
@@ -569,4 +663,32 @@ footer{
     height: 55em;
 }
 
+/* About */
+
+#who-we-are {
+    height: 32em;
+}
+
+#who-we-are-img {
+    margin-left: 2em;
+    max-width: 50%;
+}
+
+#who-we-are-text {
+    text-align: left;
+    max-width: 60%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Classes */ 
+
+.class-row {
+    
+    max-width: 50%;
+}
+
+#what-we-offer h1 {
+    padding: 20px;
+}
 }
