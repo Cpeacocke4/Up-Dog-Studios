@@ -32,11 +32,11 @@ p {
 .button {
     width: 12em;
     height: 5em;
-    
+
     background-color: #edebe4;
 }
 
-.button > a {
+.button>a {
     font-family: Josefin Sans, sans-serif;
     font-weight: 300;
     color: inherit;
@@ -50,7 +50,7 @@ p {
     background-color: #ea4965;
     color: #edebe4;
 }
-        
+
 /* Page Header */
 
 #header {
@@ -59,7 +59,7 @@ p {
     width: 100%;
     position: fixed;
     z-index: 2500;
-    
+
     flex-wrap: wrap;
 }
 
@@ -83,7 +83,7 @@ p {
     color: #232323;
     font-size: 1.3rem;
     line-height: 20px;
-    
+
     position: absolute;
     bottom: 3%;
 }
@@ -91,7 +91,7 @@ p {
 #menu li {
     float: right;
     list-style-type: none;
-    margin: 10px;
+    margin: 7px;
 }
 
 #menu a {
@@ -109,19 +109,19 @@ p {
     color: #ea4965;
 }
 
-/* Hero Image */ 
+/* Hero Image */
 
 #hero-image {
     height: 25em;
     width: 100%;
     padding-top: 12em;
-    
+
     background-size: cover;
     background-color: #232323;
     background-repeat: no-repeat;
     background-position: 55%;
-    
-    background-image: url(../images/hero-image.jpg);  
+
+    background-image: url(../images/hero-image.jpg);
 }
 
 /* Hero Image Hook */
@@ -131,24 +131,24 @@ p {
     height: 12em;
     margin: auto;
 
-    background-color: rgb(234,73,101, .7);
+    background-color: rgb(234, 73, 101, .7);
 }
 
 #hook-text {
     color: #edebe4;
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-align: center;
-    
+
     padding: 3%;
-    transform: translate(0, 7.5%);
+    transform: translate(0, 13%);
 }
 
-#hook-text > span {
+#hook-text>span {
     font-size: 1.5em;
     font-family: Bodoni Moda, sans-serif;
 }
 
-/* Book a Class Button */ 
+/* Book a Class Button */
 
 #button-box {
     display: flex;
@@ -157,19 +157,19 @@ p {
 }
 
 #book-a-class-button {
-    position: absolute;
-    top: 30em;
+    position: relative;
+    margin-top: 1em;
 }
 
 #book-a-class-button:hover {
     background-color: #ea4965;
 }
 
-/* Ethos Section */ 
+/* Ethos Section */
 
 #ethos {
     width: 100%;
-    height: 77em;
+    height: auto;
 
     background-color: #5a7765;
 }
@@ -184,7 +184,7 @@ p {
     margin-top: .5em;
 }
 
-#ethos-text > p {
+#ethos-text>p {
     padding: 10px;
     font-size: 1.5em;
 }
@@ -235,7 +235,7 @@ p {
 .overlay {
     background-color: rgb(35, 35, 35, .7);
     overflow: hidden;
-    height: 100%; 
+    height: 100%;
 }
 
 /* Book a Class Box */
@@ -270,7 +270,7 @@ p {
 .overlay {
     background-color: rgb(35, 35, 35, .7);
     overflow: hidden;
-    height: 100%; 
+    height: 100%;
 }
 
 /* Opening Times */
@@ -278,7 +278,7 @@ p {
 #opening-times {
 
     width: 100%;
-    height: 20em;
+    height: auto;
     margin-top: 3em;
     padding-top: 2em;
 
@@ -321,7 +321,7 @@ hr {
 
 #testimonies {
     width: 100%;
-    height: 75em;
+    height: auto;
 
     background-color: #edebe4;
 }
@@ -340,7 +340,7 @@ hr {
     text-align: center;
 
     padding-top: 60px;
-    padding-bottom: 40px ;
+    padding-bottom: 40px;
 }
 
 #testimonies h3 {
@@ -357,7 +357,7 @@ hr {
     width: 200px;
     height: 200px;
     background-color: #edebe4;
-    
+
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -380,7 +380,7 @@ hr {
 
 /* Footer */
 
-footer{
+footer {
     background-color: #edebe4;
     height: 100px;
     width: 100%;
@@ -392,7 +392,7 @@ footer{
 
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -414,7 +414,7 @@ footer{
 /* About */
 
 #who-we-are {
-    height: 70%;
+    height: auto;
     background-color: #5a7765;
 }
 
@@ -423,6 +423,7 @@ footer{
     flex-wrap: wrap;
     margin: auto;
     padding-top: 8em;
+    padding-bottom: 1.5em;
     justify-content: space-around;
 }
 
@@ -440,7 +441,7 @@ footer{
 #who-we-are-img img {
     max-width: 100%;
     object-position: 0 -50px;
-    
+
 }
 
 #who-we-are-text {
@@ -451,40 +452,83 @@ footer{
     padding: 20px;
 }
 
-/* Classes */ 
+/* Classes */
 
 #what-we-offer {
-    height: 76em;
-    background: #edebe4;
+    width: 100%;
+    height: auto;
+    background-color: #edebe4;
+}
+
+.class-row {
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.class {
+    padding: 10px; 
+    margin: 1em;
+    border: solid 2px #5a7765;
 }
 
 #what-we-offer h1 {
-    color: #3a3a3a;
+    color: #232323;
     text-align: center;
-    padding-top: 20px;
+
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
-#class-blocks {
-    background-image: url(../images/yoga-classes.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    background-position: 50% 30%;
-    overflow: hidden;
-}
-
-.class-info {
-    width: 100%;
-    height: 18em;
-    background-color: rgb(58,58,58,0.8);
-    border: #edebe4 solid 4px;
-    box-sizing: border-box;
-    align-items: center;
-    text-align: center;
-}
-
-#class-blocks h1 {
+#what-we-offer h3 {
     color: #ea4965;
+    text-align: center;
+}
+
+#what-we-offer p {
+    color: #232323;
+    text-align: center;
+}
+
+/* Instructors */ 
+
+#instructors {
+    width: 100%;
+    height: auto;
+
+    background-color: #edebe4;
+}
+
+.instructors-row {
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 30%;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+#instructors h1 {
+    color: #232323;
+    text-align: center;
+
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+#instructors h3 {
+    color: #ea4965;
+    text-align: center;
+    font-family: Bodoni Moda, sans-serif;
+}
+
+#instructors p {
+    color: #232323;
+    text-align: center;
 }
 
 
@@ -493,9 +537,9 @@ footer{
 /* Small To Medium Screens */
 
 @media screen and (min-width:600px) {
-    
+
     /* About */
-   
+
     #who-we-are-img {
         margin-left: 2em;
     }
@@ -510,185 +554,163 @@ footer{
 
     /* Nav Bar */
 
-#logo {
-    position: relative;
-    top: 16px;
-}
+    #logo {
+        position: relative;
+        top: 16px;
+    }
 
     #menu {
-    font-family: Josefin Sans, sans-serif;
-    color: #232323;
-    font-size: 200%;
-    line-height: 20px;
-    
-    position: relative;
-    margin-right: 1%;
-    top: 27px;
+        font-family: Josefin Sans, sans-serif;
+        color: #232323;
+        font-size: 200%;
+        line-height: 20px;
+
+        position: relative;
+        margin-right: 1%;
+        top: 27px;
+    }
+
+    /* Hook Box */
+    #hook-box {
+        width: 60%;
+        height: 14em;
+
+        background-color: rgb(234, 73, 101, .7);
+
+        top: 11em;
+        left: 36px;
+        position: absolute;
+    }
+
+    #hook-text {
+        color: #edebe4;
+        font-size: 1.8em;
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        padding: 3%;
+        position: absolute;
+        transform: translate(0, 7.5%);
+    }
+
+    /* Book a Class Button */
+
+    #button-box {
+        display: flex;
+        justify-content: right;
+        margin-right: 4%;
+        height: 0;
+    }
+
+    #book-a-class-button {
+        top: 17em;
+    }
+
+    /* Testimonials */
+
+    .testimony {
+        width: 15em;
+    }
+
+    #testimony-blocks {
+        flex-wrap: wrap;
+        display: flex;
+        max-width: 1000px;
+        width: 100%;
+        margin: auto;
+    }
+
+    #testimonies p {
+        color: #232323;
+        text-align: center;
+    }
+
+    #testimony-1 {
+        display: block;
+    }
+
+    #testimony-2 {
+        display: block;
+    }
+
+    /* About */
+
+    #who-we-are-text {
+        text-align: left;
+    }
+
+    .who-we-are-container {
+        margin-left: 2.5em;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    #who-we-are-img img {
+        margin-left: 0;
+    }
+
+    /* Classes */
+
+    #class-blocks {
+        
+        flex-wrap: wrap;
+        display: flex;
+        max-width: 1000px;
+        width: 100%;
+        margin: auto;
+    }
+
+    #what-we-offer p {
+        color: #232323;
+        text-align: center;
+    }
+
+    /* Instructors */
+
+    #intructors-blocks {
+        flex-wrap: wrap;
+        display: flex;
+        max-width: 1000px;
+        width: 100%;
+        margin: auto;
+    }
+
 }
-
-/* Hook Box */
-#hook-box {
-    width: 60%;
-    height: 14em;
-
-    background-color: rgb(234,73,101, .7);
-
-    top: 200px;
-    left: 36px;
-    position: absolute;
-}
-
-#hook-text {
-    color: #edebe4;
-    font-size: 1.8em;
-    text-align: center;
-    letter-spacing: 0.02em;
-    
-    padding: 3%;
-    position: absolute;
-    transform: translate(0, 7.5%);
-}
-
-/* Book a Class Button */ 
-
-#button-box {
-    display: flex;
-    justify-content: right;
-    margin-right: 4%;
-    height: 0;
-}
-
-#book-a-class-button {
-    width: 12em;
-    height: 5em;
-    
-    bottom: 156px;
-
-    background-color: #edebe4;
-}
-
-/* Testimonials */
-
-#testimonies {
-    height: 87em;
-}
-
-.testimony {
-    width: 15em;
-}
-
-#testimony-blocks {
-    flex-wrap: wrap;
-    display: flex;
-    max-width: 1000px;
-    width: 100%;
-    margin: auto;
-}
-
-#testimonies p {
-    color: #232323;
-    text-align: center;
-}
-
-#testimony-1 {
-    display: block;
-}
-
-#testimony-2 {
-    display: block;
-}
-
-/* About */
-
-#who-we-are-text {
-    text-align: left;  
-}
-
-.who-we-are-container {
-    margin-left: 2.5em;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 0;
-}
-
-#who-we-are-img img {
-    margin-left: 0;
-}
-
-}
-
-/* Classes */ 
-
-#class-blocks {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.class-row {
-    display: flex;
-}
-
-.class-info {
-    width: 50%;
-    height: 25em;
-}
-
-#what-we-offer {
-    height: 60em;
-}
-
-#what-we-offer h1 {
-    padding: 30px;
-}
-
 
 /* Medium to Large Screens */
 
 @media screen and (min-width:1000px) {
+
     /* Hook Box */
-#hook-box {
-    width: 53%;
-}
-/* Book a Class Button */ 
-#button-box {
-    height: 0;
-}
+    #hook-box {
+        width: 53%;
+    }
 
-#book-a-class-button {
-    width: 20%;
-}
+    /* Book a Class Button */
+    #button-box {
+        height: 0;
+    }
 
-/* Testimonies */
-#testimonies {
-    height: 55em;
-}
+    #book-a-class-button {
+        width: 20%;
+    }
 
-/* About */
+    /* About */
 
-#who-we-are {
-    height: 32em;
-}
+    #who-we-are-img {
+        margin-left: 2em;
+        max-width: 50%;
+    }
 
-#who-we-are-img {
-    margin-left: 2em;
-    max-width: 50%;
-}
+    #who-we-are-text {
+        text-align: left;
+        max-width: 60%;
+        margin-top: 0;
+        padding-top: 0;
+    }
 
-#who-we-are-text {
-    text-align: left;
-    max-width: 60%;
-    margin-top: 0;
-    padding-top: 0;
-}
+    /* Classes */
 
-/* Classes */ 
-
-.class-row {
     
-    max-width: 50%;
-}
-
-#what-we-offer h1 {
-    padding: 20px;
-}
 }
