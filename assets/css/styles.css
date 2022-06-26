@@ -10,7 +10,6 @@ body {
     font-family: Mada, sans-serif;
     font-weight: 300;
     color: #edebe4;
-    font-size: 90%;
 }
 
 h1 {
@@ -27,6 +26,13 @@ h3 {
 
 p {
     font-size: 1.6rem;
+}
+
+label {
+    font-size: 1.6rem;
+    font-family: Mada, sans-serif;
+    font-weight: 300;
+    color: #edebe4;
 }
 
 .button {
@@ -134,16 +140,16 @@ p {
     background-color: rgb(234, 73, 101, .7);
 }
 
-#hook-text {
+.text-content {
     color: #edebe4;
-    font-size: 1.4em;
+    font-size: 1.6em;
     text-align: center;
 
     padding: 3%;
     transform: translate(0, 13%);
 }
 
-#hook-text>span {
+.text-content span {
     font-size: 1.5em;
     font-family: Bodoni Moda, sans-serif;
 }
@@ -429,7 +435,7 @@ footer {
 
 #who-we-are-img {
     width: 85%;
-    height: 28rem;
+    height: 18rem;
     background-color: #232323;
     background-size: cover;
     background-repeat: no-repeat;
@@ -440,7 +446,7 @@ footer {
 
 #who-we-are-img img {
     max-width: 100%;
-    object-position: 0 -190px;
+    object-position: 0 -115px;
 
 }
 
@@ -576,7 +582,7 @@ footer {
 
 #booking-page {
     width: 100%;
-    height: 59em;
+    height: 67em;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../images/booking.jpg);
@@ -654,20 +660,71 @@ footer {
     background: #5a7765;
 }
 
-#image-container {
-
+#header-section {
+    display: flex;
+    padding-top: 9em;
+    justify-content: center;
 }
 
 #header-img {
-    background-image: url(../images/contact-us.jpg);
-    width: 80%;
-    height: 30em;
-    background-repeat: no-repeat;
-    background-position: center;
+    width: 85%;
+    height: 35vh;
+    background-color: #232323;
     background-size: cover;
-    margin: auto;
-    
+    background-repeat: no-repeat;
+    background-position: 60%;
+    overflow: hidden;
 
+    background-image: url(../images/contact-us.jpg);
+}
+
+#input-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#text-box {
+    width: 75%;
+    height: 25vh;
+    margin: auto;
+    margin-top: 2em;
+    background-color: rgb(234, 73, 101, .7);
+
+    text-align: center;
+}
+
+#text-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+}
+
+#text-field {
+    background:transparent;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    color: #fafafa;
+}
+
+#personal-info {
+    width: 80%;
+    max-width: 350px;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Location Map */
+
+#location  {
+   margin-left: 1em;
+}
+
+iframe {
+    width: 95%;
+    height: 30vh;
 }
 
 /* Media Queries */
@@ -866,8 +923,6 @@ footer {
         margin-top: 0;
         padding-top: 0;
     }
-
-    /* Classes */
 
     
 }
