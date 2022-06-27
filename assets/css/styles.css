@@ -38,6 +38,7 @@ label {
 .button {
     width: 12em;
     height: 5em;
+    margin-top: 1em;
 
     background-color: #edebe4;
 }
@@ -433,33 +434,27 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    padding-top: 8em;
+    padding-top: 7em;
     padding-bottom: 1.5em;
     justify-content: space-around;
 }
 
 #who-we-are-img {
     width: 85%;
-    background-color: #232323;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 60%;
     overflow: hidden;
-
+    margin: 1em;
 }
 
 #who-we-are-img img {
     max-width: 100%;
-    height: auto;
-    display: block;
-
 }
 
 #who-we-are-text {
     width: 100%;
-    margin: auto;
     text-align: center;
-    max-width: 700px;
     padding: 20px;
 }
 
@@ -572,7 +567,7 @@ footer {
 }
 
 #your-space-img img {
-    max-width: 120%;
+    max-width: 100%;
 }
 
 #your-space-text {
@@ -595,7 +590,6 @@ footer {
 #booking-box {
     width: 80%;
     max-width: 400px;
-    height: 54em;
     top: 20%;
     padding-top: 9em;
     margin: auto;
@@ -605,7 +599,7 @@ footer {
 
 #booking-box > h1 {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     padding-bottom: 5px;
     color: #FFFFFF;
 }
@@ -625,7 +619,7 @@ footer {
 }
 
 #details {
-    margin: 1em;
+    padding: 1em;
 }
 
 #booking-hr {
@@ -683,12 +677,11 @@ footer {
 
 #get-in-touch {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 #input-fields {
-    display: flex;
-    flex-wrap: wrap;
     width: 80%;
     max-width: 400px;
 }
@@ -720,8 +713,6 @@ footer {
     width: 80%;
     max-width: 350px;
     padding: 1em;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 /* Location Map */
@@ -743,18 +734,6 @@ iframe {
 /* Small To Medium Screens */
 
 @media screen and (min-width:600px) {
-
-    /* About */
-
-    #who-we-are-text {
-        text-align: left;
-        max-width: 40%;
-    }
-
-    #who-we-are-img {
-        margin-left: 1.5em;
-        width: 50%;
-    }
 
 
 /* Your Space */
@@ -829,16 +808,12 @@ iframe {
 
     #who-we-are-text {
         text-align: left;
+        max-width: 44%;
+        padding-top: 2em;
     }
 
-    .who-we-are-container {
-        align-items: flex-start;
-        justify-content: space-between;
-        gap: 0;
-    }
-
-    #who-we-are-img img {
-        margin-left: 0;
+    #who-we-are-img {
+        width: 46%;
     }
 
     /* Classes */
@@ -872,11 +847,30 @@ iframe {
 
     #your-space-text {
         text-align: left;
-        max-width: 45%;
+        max-width: 43%;
     }
     
     #your-space-img {
         width: 45%;
+    }
+
+    /* Contact Page */
+
+    #header-img {
+        height: 20vh;
+    }
+
+    #text-box {
+        height: 14vh;
+    }
+
+    .text-content {
+        font-size: 1.8em;
+        padding: 0;
+    }
+
+    #text-box div {
+        padding: 20px;
     }
 }
 
@@ -884,19 +878,14 @@ iframe {
 
 @media screen and (min-width:1000px) {
 
+    /* Contact Page */
 
-    /* About */
-
-    #who-we-are-img {
-        max-width: 44%;
+    #header-img {
+        height: 26vh;
     }
 
-    #who-we-are-text {
-        text-align: left;
-        max-width: 44%;
-        margin-top: 0;
-        padding-top: 0;
+    #text-box {
+        height: 18vh;
     }
-
     
 }
