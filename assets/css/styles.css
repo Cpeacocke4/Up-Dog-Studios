@@ -730,6 +730,38 @@ iframe {
     margin: 20px 0px;
 }
 
+/* Submitted Page */
+
+#submitted {
+    width: 100%;
+    height: 80vh;
+    background-color: #edebe4;
+}
+
+#submitted-box {
+    padding-top: 10em;
+}
+
+#submitted-text {
+    color: #3a3a3a;
+    text-align: center;
+    padding: 2em;
+}
+
+#home-button-container {
+    text-align: center;
+}
+
+#home-button {
+    background-color: #3a3a3a; 
+    color: #edebe4;   
+}
+
+#home-button:hover {
+    background-color: #ea4965;
+    
+}
+
 /* Media Queries */
 
 /* Small To Medium Screens */
