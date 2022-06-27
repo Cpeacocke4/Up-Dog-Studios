@@ -7,19 +7,19 @@
 }
 
 body {
-    font-family: Mada, sans-serif;
+    font-family: 'Mada', sans-serif;
     font-weight: 300;
     color: #edebe4;
 }
 
 h1 {
-    font-family: Josefin Sans, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 300%;
     font-weight: 400;
 }
 
 h3 {
-    font-family: Josefin Sans, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     font-size: 200%;
 }
@@ -30,7 +30,7 @@ p {
 
 label {
     font-size: 1.6rem;
-    font-family: Mada, sans-serif;
+    font-family: 'Mada', sans-serif;
     font-weight: 300;
     color: #edebe4;
 }
@@ -43,7 +43,7 @@ label {
 }
 
 .button>a {
-    font-family: Josefin Sans, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     color: inherit;
     font-size: 170%;
@@ -72,7 +72,7 @@ label {
 /* Logo */
 
 #logo {
-    font-family: Righteous, sans-serif;
+    font-family: 'Righteous', cursive;
     text-transform: uppercase;
     color: #232323;
     letter-spacing: 4px;
@@ -85,7 +85,7 @@ label {
 /* Nav Bar */
 
 #menu {
-    font-family: Josefin Sans, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #232323;
     font-size: 1.3rem;
     line-height: 20px;
@@ -133,33 +133,38 @@ label {
 /* Hero Image Hook */
 
 #hook-box {
-    width: 80%;
-    height: 12em;
-    margin: auto;
+    width: 85%;
+    max-width: 600px;
+    height: 13em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 2em;
 
     background-color: rgb(234, 73, 101, .7);
 }
 
 .text-content {
     color: #edebe4;
-    font-size: 1.6em;
+    font-size: 1.5em;
     text-align: center;
 
-    padding: 3%;
+    padding: 4%;
     transform: translate(0, 13%);
 }
 
 .text-content span {
-    font-size: 1.5em;
-    font-family: Bodoni Moda, sans-serif;
+    font-size: 1.4em;
+    font-family: 'Bodoni Moda', serif;
 }
 
 /* Book a Class Button */
 
 #button-box {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    height: 0;
+    margin-top: 2em;
 }
 
 #book-a-class-button {
@@ -300,7 +305,7 @@ label {
 
 #table {
     color: #232323;
-    font-family: Mada, sans-serif;
+    font-family: 'Mada', sans-serif;
     font-size: 2em;
     border-spacing: 20px;
     margin: auto;
@@ -435,7 +440,6 @@ footer {
 
 #who-we-are-img {
     width: 85%;
-    height: 18rem;
     background-color: #232323;
     background-size: cover;
     background-repeat: no-repeat;
@@ -446,7 +450,8 @@ footer {
 
 #who-we-are-img img {
     max-width: 100%;
-    object-position: 0 -115px;
+    height: auto;
+    display: block;
 
 }
 
@@ -533,7 +538,7 @@ footer {
 #instructors h3 {
     color: #ea4965;
     text-align: center;
-    font-family: Bodoni Moda, sans-serif;
+    font-family: 'Bodoni Moda', serif;
 }
 
 #instructors p {
@@ -559,8 +564,6 @@ footer {
 
 #your-space-img {
     width: 85%;
-    height: 42em;
-    background-color: #232323;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 60%;
@@ -582,7 +585,7 @@ footer {
 
 #booking-page {
     width: 100%;
-    height: 67em;
+    height: auto;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../images/booking.jpg);
@@ -592,7 +595,7 @@ footer {
 #booking-box {
     width: 80%;
     max-width: 400px;
-    height: 60em;
+    height: 54em;
     top: 20%;
     padding-top: 9em;
     margin: auto;
@@ -609,7 +612,7 @@ footer {
 
 #class-type h3 {
     text-align: center;
-    font-family: Bodoni Moda, sans-serif;
+    font-family: 'Bodoni Moda', serif;
 }
 
 .radio-btns {
@@ -656,7 +659,7 @@ footer {
 
 #contact-page {
     width: 100%;
-    height: 80em;
+    height: auto;
     background: #5a7765;
 }
 
@@ -678,10 +681,16 @@ footer {
     background-image: url(../images/contact-us.jpg);
 }
 
+#get-in-touch {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #input-fields {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    width: 80%;
+    max-width: 400px;
 }
 
 #text-box {
@@ -695,8 +704,6 @@ footer {
 }
 
 #text-input {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     padding: 1em;
 }
@@ -706,6 +713,7 @@ footer {
     border: 1px solid #fafafa;
     border-radius: 2px;
     color: #fafafa;
+    margin: 20px 0px;
 }
 
 #personal-info {
@@ -719,12 +727,15 @@ footer {
 /* Location Map */
 
 #location  {
-   margin-left: 1em;
+   margin-left: 7%;
+   padding-top: 1em;
+   padding-bottom: 1em;
 }
 
 iframe {
-    width: 95%;
-    height: 30vh;
+    width: 91%;
+    height: 70vh;
+    margin: 20px 0px;
 }
 
 /* Media Queries */
@@ -765,50 +776,14 @@ iframe {
     }
 
     #menu {
-        font-family: Josefin Sans, sans-serif;
+        font-family: 'Josefin Sans', sans-serif;
         color: #232323;
-        font-size: 200%;
-        line-height: 20px;
+        font-size: 150%;
+        line-height: 35px;
 
         position: relative;
         margin-right: 1%;
         top: 27px;
-    }
-
-    /* Hook Box */
-    #hook-box {
-        width: 60%;
-        height: 14em;
-
-        background-color: rgb(234, 73, 101, .7);
-
-        top: 11em;
-        left: 36px;
-        position: absolute;
-    }
-
-    #hook-text {
-        color: #edebe4;
-        font-size: 1.8em;
-        text-align: center;
-        letter-spacing: 0.02em;
-
-        padding: 3%;
-        position: absolute;
-        transform: translate(0, 7.5%);
-    }
-
-    /* Book a Class Button */
-
-    #button-box {
-        display: flex;
-        justify-content: right;
-        margin-right: 4%;
-        height: 0;
-    }
-
-    #book-a-class-button {
-        top: 17em;
     }
 
     /* Testimonials */
@@ -838,6 +813,18 @@ iframe {
         display: block;
     }
 
+    /* Hero Section */
+
+    #hook-box {
+        justify-content: left;
+        margin-left: 4em;
+    }
+
+    #button-box {
+        justify-content: right;
+        margin-right: 4em;
+    }
+    
     /* About */
 
     #who-we-are-text {
@@ -897,19 +884,6 @@ iframe {
 
 @media screen and (min-width:1000px) {
 
-    /* Hook Box */
-    #hook-box {
-        width: 53%;
-    }
-
-    /* Book a Class Button */
-    #button-box {
-        height: 0;
-    }
-
-    #book-a-class-button {
-        width: 20%;
-    }
 
     /* About */
 
