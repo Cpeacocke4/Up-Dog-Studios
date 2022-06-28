@@ -199,7 +199,7 @@ label {
     padding-top: 30px;
 }
 
-#ethos-text h1 {
+#ethos-text h2 {
     margin-top: .5em;
 }
 
@@ -215,7 +215,8 @@ label {
     flex-wrap: wrap;
     gap: 50px;
     justify-content: space-evenly;
-    margin-top: 2em;
+    padding-top: 2em;
+    background-color: #5a7765;
 }
 
 .learn-more {
@@ -242,7 +243,7 @@ label {
     padding-top: 4em;
 }
 
-#about-us-text h1 {
+#about-us-text h2 {
     font-size: 2.8em;
     padding-top: 15px;
 }
@@ -278,7 +279,7 @@ label {
     padding-top: 4em;
 }
 
-#book-a-class-text h1 {
+#book-a-class-text h2 {
     font-size: 2.8em;
     padding-top: 15px;
 }
@@ -300,13 +301,12 @@ label {
 
     width: 100%;
     height: auto;
-    margin-top: 3em;
-    padding-top: 2em;
+    padding-top: 5em;
 
     background-color: #edebe4;
 }
 
-#opening-times h1 {
+#opening-times h2 {
     color: #232323;
     text-align: center;
     padding-top: 30px;
@@ -356,7 +356,7 @@ label {
     justify-content: space-around;
 }
 
-#testimonies h1 {
+#testimonies h2 {
     color: #232323;
     text-align: center;
 
@@ -492,7 +492,7 @@ footer {
     border: solid 2px #5a7765;
 }
 
-#what-we-offer h1 {
+#what-we-offer h2 {
     color: #232323;
     text-align: center;
 
@@ -533,7 +533,7 @@ footer {
     padding: 15px;
 }
 
-#instructors h1 {
+#instructors h2 {
     color: #232323;
     text-align: center;
 
@@ -608,7 +608,7 @@ footer {
     background-color: rgba(234, 73, 101, .6);
 }
 
-#booking-box>h1 {
+#booking-box>h2 {
     text-align: center;
     padding: 10px;
     padding-bottom: 5px;
@@ -916,7 +916,7 @@ iframe {
 
     /* Booking Page */
 
-    #booking-box h1 {
+    #booking-box h2 {
         padding-top: 1em;
     }
 
