@@ -219,7 +219,7 @@ label {
 /* About Box */
 
 #about-us-box {
-    width: 30em;
+    width: 27em;
     height: 25em;
     background-color: #232323;
     background-size: cover;
@@ -255,7 +255,7 @@ label {
 /* Book a Class Box */
 
 #book-a-class {
-    width: 30em;
+    width: 27em;
     height: 25em;
     background-color: #232323;
     background-size: cover;
@@ -480,8 +480,8 @@ footer {
 
 .class {
     width: 80%;
-    height: 14em;
-    padding: 10px;
+    height: 15em;
+    padding: 25px;
     margin: 1em;
     border: solid 2px #5a7765;
 }
@@ -958,4 +958,16 @@ iframe {
         max-width: 395px;
     }
 
+}
+
+/* Extra Large Screens */
+
+@media screen and (min-width:1400px) {
+
+    /* Ethos Section */
+
+    #ethos-text {
+        padding-left: 12em;
+        padding-right: 12em;
+    }
 }
