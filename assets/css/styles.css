@@ -219,8 +219,8 @@ label {
 /* About Box */
 
 #about-us-box {
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 25em;
     background-color: #232323;
     background-size: cover;
     background-repeat: no-repeat;
@@ -232,7 +232,8 @@ label {
 
 #about-us-text {
     text-align: center;
-    padding: 10px;
+    padding: 15px;
+    padding-top: 4em;
 }
 
 #about-us-text h1 {
@@ -254,8 +255,8 @@ label {
 /* Book a Class Box */
 
 #book-a-class {
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 25em;
     background-color: #232323;
     background-size: cover;
     background-repeat: no-repeat;
@@ -267,7 +268,8 @@ label {
 
 #book-a-class-text {
     text-align: center;
-    padding: 10px;
+    padding: 15px;
+    padding-top: 4em;
 }
 
 #book-a-class-text h1 {
@@ -759,7 +761,7 @@ iframe {
 
 #home-button:hover {
     background-color: #ea4965;
-    
+
 }
 
 /* Media Queries */
@@ -919,6 +921,12 @@ iframe {
 
     #text-box {
         height: 18vh;
+    }
+
+    /* Testimonies */
+
+    .testimony-row {
+        margin: 0;
     }
     
 }
