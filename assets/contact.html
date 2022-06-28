@@ -39,85 +39,95 @@
     </header>
 
     <!-- Header Image -->
-    
+
     <section id="contact-page">
-            <div id="header-section">
-                <div id="header-img">
-                    <div id="text-box">
-                        <div class="text-content">
-                            <p>Do you have more questions?</p>
-                            <p><span>Get in Touch!</span> </p>
-                        </div>
+        <div id="header-section">
+            <div id="header-img">
+                <div id="text-box">
+                    <div class="text-content">
+                        <p>Do you have more questions?</p>
+                        <p><span>Get in Touch!</span> </p>
                     </div>
                 </div>
-             </div>
+            </div>
+        </div>
 
-             <form action="submitted.html" id="get-in-touch">
+        <div id="form-container">
+            <form action="submitted.html" id="booking-form">
+                <div class="form-input">
+                    <label for="fname">First Name</label>
+                    <br>
+                    <input type="text" id="fname" name="first_name" required class="text-input">
+                    <br>
 
-                 
-                 <div id="personal-info">
-                     
-                     <label for="fname">First Name</label>
-                     <input type="text" id="fname" name="first_name" required class="text-input">
-                     
-                     
-                     <label for="lname">Last Name</label>
-                     <input type="text" id="lname" name="last_name" required class="text-input">
-                     
-                     
-                     <label for="email">Email Address</label>
-                     <input type="email" id="email" name="email_address" required class="text-input">
-                     
-                    </div>
-                     
-                    <div id="input-fields">
-                         <div id="text-input">
-                             <label for="text-field">Your Message</label>
-                             <br>
-                             <textarea name="text-field" id="text-field" cols="36" rows="16"></textarea>
-                             
-                             <input type="submit" value="send" class="button">
-                         </div>
-                         
-                 </div>
-             </form>
+                    <label for="lname">Last Name</label>
+                    <br>
+                    <input type="text" id="lname" name="last_name" required class="text-input">
+                    <br>
 
+                    <label for="email">Email Address</label>
+                    <br>
+                    <input type="email" id="email" name="email_address" required class="text-input">
+                </div>
+
+                <div class="form-input">
+                    <label for="text-field">Your Message</label>
+                    <br>
+                    <textarea name="text-field" id="text-field" cols="36" rows="16"></textarea>
+
+                    <input type="submit" value="Send" class="button">
+                </div>
+            </form>
+        </div>
+
+        <div id="location-container">
             <div id="location">
                 <label for="map"> Where to Find Us</label>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40314.55522233686!2d-0.14120908253942463!3d50.83746691443049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48758509f6294167%3A0x9cc6af7a727d0ef9!2sBrighton%2C%20UK!5e0!3m2!1sen!2sse!4v1656243891425!5m2!1sen!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Up Dog studios location on Google Maps" id="map"></iframe>
+                <br>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40314.55522233686!2d-0.14120908253942463!3d50.83746691443049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48758509f6294167%3A0x9cc6af7a727d0ef9!2sBrighton%2C%20UK!5e0!3m2!1sen!2sse!4v1656243891425!5m2!1sen!2sse"
+                    width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" title="Up Dog studios location on Google Maps"
+                    id="map">
+                </iframe>
             </div>
-    </section>  
+        </div>
+    </section>
 
-   
-        
+
+
     <!-- Footer -->
-        <footer>
-            <ul class="social-networks">
-                <li >
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="visit our Facebook page (opens in a new tab)">
-                        <i class="fa-brands fa-facebook-square"></i>
-                    </a>
-                </li>
-                <li >
-                    <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener" aria-label="visit our Twitter page (opens in a new tab)">
-                        <i class="fa-brands fa-twitter-square"></i>
-                    </a>
-                </li>
-                <li >
-                    <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="visit our Youtube page (opens in a new tab)">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                </li>
-                <li >
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="visit our Instagram page (opens in a new tab)">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </li>
-            </ul>
-        </footer>
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook-square"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener"
+                    aria-label="visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter-square"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="visit our Youtube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
 
-        <!-- font awesome link-->
-<script src="https://kit.fontawesome.com/9c7b5fda31.js" crossorigin="anonymous"></script>
+    <!-- font awesome link-->
+    <script src="https://kit.fontawesome.com/9c7b5fda31.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

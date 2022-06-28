@@ -40,6 +40,7 @@ label {
     height: 5em;
     margin-top: 1em;
     border-radius: 35px;
+    color: #3a3a3a;
 
     background-color: #edebe4;
 }
@@ -152,7 +153,6 @@ label {
     text-align: center;
 
     padding: .5em;
-    transform: translate(0, 10%);
 }
 
 .text-content span {
@@ -479,7 +479,9 @@ footer {
 }
 
 .class {
-    padding: 10px; 
+    width: 80%;
+    height: 14em;
+    padding: 10px;
     margin: 1em;
     border: solid 2px #5a7765;
 }
@@ -502,7 +504,7 @@ footer {
     text-align: center;
 }
 
-/* Instructors */ 
+/* Instructors */
 
 #instructors {
     width: 100%;
@@ -520,7 +522,7 @@ footer {
     display: flex;
     max-width: 30%;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     justify-content: space-around;
     padding: 15px;
 }
@@ -597,10 +599,10 @@ footer {
     padding-top: 9em;
     margin: auto;
     color: #ffff;
-    background-color: rgba(234,73,101,.6);
+    background-color: rgba(234, 73, 101, .6);
 }
 
-#booking-box > h1 {
+#booking-box>h1 {
     text-align: center;
     padding: 10px;
     padding-bottom: 5px;
@@ -634,7 +636,7 @@ footer {
 }
 
 .text-input {
-    background:transparent;
+    background: transparent;
     color: #fafafa;
     width: 100%;
     height: 25px;
@@ -668,7 +670,7 @@ footer {
 
 #header-img {
     width: 85%;
-    height: 35vh;
+    height: 15em;
     background-color: #232323;
     background-size: cover;
     background-repeat: no-repeat;
@@ -682,16 +684,29 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 1em;
+}
+
+#form-container {
+    display: flex;
+    justify-content: center; 
+}
+
+#booking-form {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #input-fields {
-    width: 90%;
-    max-width: 400px;
+    width: 80%;
+    max-width: 300px;
 }
 
 #text-box {
     width: 75%;
-    height: 25vh;
+    height: 10em;
     margin: auto;
     margin-top: 2em;
     background-color: rgb(234, 73, 101, .7);
@@ -705,30 +720,34 @@ footer {
 }
 
 #text-field {
-    background:transparent;
+    background: transparent;
     border: 1px solid #fafafa;
     border-radius: 2px;
     color: #fafafa;
     margin: 20px 0px;
 }
 
-#personal-info {
-    width: 80%;
-    max-width: 350px;
+textarea {
+    width: 100%;
+}
+
+.form-input {
+    width: 100%;
     padding: 1em;
 }
 
 /* Location Map */
 
-#location  {
-   margin-left: 7%;
-   padding-top: 1em;
-   padding-bottom: 1em;
+#location-container {
+    display: flex;
+    justify-content: center;
 }
 
+/* #location {
+    width: 85%;
+} */
+
 iframe {
-    width: 91%;
-    height: 70vh;
     margin: 20px 0px;
 }
 
@@ -755,8 +774,8 @@ iframe {
 }
 
 #home-button {
-    background-color: #3a3a3a; 
-    color: #edebe4;   
+    background-color: #3a3a3a;
+    color: #edebe4;
 }
 
 #home-button:hover {
@@ -771,11 +790,11 @@ iframe {
 @media screen and (min-width:600px) {
 
 
-/* Your Space */
+    /* Your Space */
 
-#your-space-img {
-    margin-left: 2em;
-}
+    #your-space-img {
+        margin-left: 2em;
+    }
 
 
 }
@@ -835,10 +854,10 @@ iframe {
     }
 
     #button-box {
-        justify-content: right;
+        justify-content: flex-end;
         margin-right: 4em;
     }
-    
+
     /* About */
 
     #who-we-are-text {
@@ -854,7 +873,7 @@ iframe {
     /* Classes */
 
     #class-blocks {
-        
+
         flex-wrap: wrap;
         display: flex;
         max-width: 1000px;
@@ -884,28 +903,42 @@ iframe {
         text-align: left;
         max-width: 43%;
     }
-    
+
     #your-space-img {
         width: 45%;
+    }
+
+    /* Booking Page */
+
+    #booking-box h1 {
+        padding-top: 1em;
+    }
+
+    #book {
+        padding-bottom: 3em;
     }
 
     /* Contact Page */
 
     #header-img {
-        height: 20vh;
+        height: 12em;
     }
 
     #text-box {
-        height: 14vh;
+        height: 8em;
     }
 
     .text-content {
         font-size: 1.8em;
-        padding: 0;
+        padding: 1em;
     }
 
     #text-box div {
-        padding: 20px;
+        padding: 10px;
+    }
+
+    .form-input {
+        max-width: 260px;
     }
 }
 
@@ -913,20 +946,16 @@ iframe {
 
 @media screen and (min-width:1000px) {
 
-    /* Contact Page */
-
-    #header-img {
-        height: 26vh;
-    }
-
-    #text-box {
-        height: 18vh;
-    }
-
     /* Testimonies */
 
     .testimony-row {
         margin: 0;
     }
-    
+
+    /* Contact Page */
+
+    .form-input {
+        max-width: 395px;
+    }
+
 }
