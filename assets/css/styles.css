@@ -794,7 +794,6 @@ iframe {
 
 #home-button:hover {
     background-color: #ea4965;
-
 }
 
 /* Media Queries */
@@ -809,8 +808,6 @@ iframe {
     #your-space-img {
         margin-left: 2em;
     }
-
-
 }
 
 @media screen and (min-width:700px) {
@@ -971,7 +968,6 @@ iframe {
     .form-input {
         max-width: 395px;
     }
-
 }
 
 /* Extra Large Screens */
