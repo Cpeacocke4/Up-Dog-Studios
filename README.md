@@ -1,5 +1,5 @@
 # Up Dog Studios
-Up Dog Studios is a yoga studio based in Brighton, England, and run by a passionate team who's goal is to make yoga accessible and enjoyable for everyone. The website is designed to create a space for future yogis to learn more about the studio, it's classes and to start their journey with Up Dog Studios by booking classes.
+Up Dog Studios is a yoga studio based in Brighton, England, and run by a passionate team who's goal is to make yoga accessible and enjoyable for everyone. The website is designed to create a space for future yogis to learn more about the studio, it's classes, and to start their journey with Up Dog Studios by booking a class.
 
 Welcome to [Up Dog Studios](https://cpeacocke4.github.io/Up-Dog-Studios/index.html)
 
@@ -19,7 +19,7 @@ Welcome to [Up Dog Studios](https://cpeacocke4.github.io/Up-Dog-Studios/index.ht
 ## **UX**
 
 ### • **Wireframe**
-The wireframe for Up Dog Studios was created using [Adobe Illustrator](https://www.adobe.com/), and shows the basic structure for all four pages.
+The wireframe for Up Dog Studios was created using [Adobe Illustrator](https://www.adobe.com/), and shows the basic structure for all four pages on a desktop view.
 
 ![Screenshot of wireframe](assets/README-images/up-dog-wireframe.png)
 
@@ -43,7 +43,7 @@ The Up Dog Studios website is designed to be an intuitive experience that encour
 #### • **Navigation Bar** 
 * The navigation bar is featured on all four pages and includes links to the Logo, Home page, About page, Book page and Contact page. 
 
-* The navigation bar is identical on all pages to assure a smooth navigation experience for the user. 
+* The navigation bar is identical on all pages to ensure a smooth navigation experience for the user. 
 
 ![Screenshot of nav bar](assets/README-images/nav-bar.png) 
 
@@ -143,11 +143,11 @@ Upon arrival to the contact page the user will be met with a welcoming header im
 
 ## **Technologies Used** 
 
-* HTML - For websites structure.
-* CSS - For the websites styling.
-* Adobe Illustrator - For the wireframes and mockups.
-* Gitpod - Used to host and edit the website
-* Github - Used to deploy the website.
+* [HTML5](https://html.spec.whatwg.org/) - For websites structure.
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - For the websites styling.
+* [Adobe Illustrator](https://www.adobe.com/) - For the wireframes and mockups.
+* [Gitpod](https://www.gitpod.io/#get-started) - Used to host and edit the website
+* [Github](https://github.com/) - Used to deploy the website.
 
 [Back to Top](#up-dog-studios)
 
@@ -252,12 +252,13 @@ To make a local clone of this project follow these steps:
 [Back to Top](#up-dog-studios)
 
 ## **Acknowledgements**
-The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer Diploma at the [Code Institute](https://codeinstitute.net/se/). 
+The site was completed as a portfolio project for the Full Stack Software Developer Diploma at [Code Institute](https://codeinstitute.net/se/). 
+
 I would like to thank all those who were involved in supporting me through this project and guiding me along the way:
 
 * My [Code Institute](https://codeinstitute.net/se/) mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/).
 * The [Code Institute](https://codeinstitute.net/se/) Slack community.
-* My personal friend and programmer [Michael Robinson](https://www.linkedin.com/in/michael-robinson-48b081224)
+* My personal friend and programmer [Michael Robinson](https://www.linkedin.com/in/michael-robinson-48b081224).
 
 Christy Peacocke 2022.
 
