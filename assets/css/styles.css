@@ -157,8 +157,9 @@ label {
     color: #edebe4;
     font-size: 1.5em;
     text-align: center;
-
-    padding: .5em;
+    padding-top: 1.5em;
+    padding-left: .5em;
+    padding-right: .5em;
 }
 
 .text-content span {
@@ -216,6 +217,7 @@ label {
     gap: 50px;
     justify-content: space-evenly;
     padding-top: 2em;
+    padding-bottom: 2em;
     background-color: #5a7765;
 }
 
@@ -716,8 +718,13 @@ footer {
     margin: auto;
     margin-top: 2em;
     background-color: rgb(234, 73, 101, .7);
+    font-size: 1em;
 
     text-align: center;
+}
+
+#text {
+    font-size: 1.2em;
 }
 
 #text-input {
@@ -749,12 +756,13 @@ textarea {
     justify-content: center;
 }
 
-/* #location {
+#location {
     width: 85%;
-} */
+}
 
 iframe {
     margin: 20px 0px;
+    width: 100%;
 }
 
 /* Submitted Page */
