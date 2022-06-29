@@ -434,6 +434,11 @@ footer {
     color: #ea4965;
 }
 
+#phone-number {
+    color: #3a3a3a;
+    text-align: center;
+}
+
 /* About */
 
 #who-we-are {
@@ -758,6 +763,7 @@ textarea {
 
 #location {
     width: 85%;
+    padding-bottom: 2em;
 }
 
 iframe {
@@ -942,10 +948,6 @@ iframe {
     .text-content {
         font-size: 1.8em;
         padding: 1em;
-    }
-
-    #text-box div {
-        padding: 10px;
     }
 
     .form-input {
